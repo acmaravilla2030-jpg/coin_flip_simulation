@@ -1,0 +1,79 @@
+1. Updated Project Documentation
+
+Feature Updates:
+	•	Simulates a single coin flip
+	•	Supports multiple coin flips with user input
+	•	Counts and displays the number of “Heads” and “Tails”
+	•	Input validation for positive integers only
+
+File/Function Structure:
+	•	flip_coin() – returns “Heads” or “Tails” randomly
+	•	run_simulation(times) – runs multiple flips and counts results
+	•	main() – handles user input and program execution
+
+New Technologies / Tools:
+	•	Python 3 – for coding the simulation
+	•	GitHub – version control and repository management
+	•	Markdown – for README file documentation
+
+References (APA-style):
+	•	ACM Code of Ethics and Professional Conduct. (2018). Association for Computing Machinery. https://www.acm.org/code-of-ethics￼
+
+⸻
+
+2. Detailed Methodology
+
+Core Features Implementation:
+	•	flip_coin() uses random.choice(["Heads","Tails"]) for random selection
+	•	run_simulation(times) loops the coin flips and counts occurrences of heads and tails
+	•	Input validation ensures users can only enter positive integers
+
+Technologies Used & Justification:
+	•	Python: simple, readable, and easy to run locally
+	•	GitHub: tracks changes and allows version control
+	•	Markdown/README: explains project installation, usage, and features
+
+Backend–Frontend Communication:
+	•	Not applicable – the project is console-based
+
+Design Decisions / Trade-offs:
+	•	Console interface chosen for simplicity
+	•	Modular function design improves readability
+	•	Prioritized readability over advanced optimizations
+
+Ethical Considerations:
+	•	User privacy: program runs locally, does not store personal data
+	•	Accessibility: clear prompts, readable output, modular code for easy understanding
+	•	Intellectual property: all references cited, no uncredited code used
+
+⸻
+
+3. Annotated GitHub Repository
+
+Organization:
+	•	Python file in root directory
+	•	Documentation file (this Word document) included in root directory
+	•	README.md provides instructions and overview
+
+Commit Practices:
+	•	Descriptive commits, e.g.,
+	•	“Added modular functions for coin flip simulation”
+	•	“Implemented input validation and multi-flip feature”
+
+Branch Usage:
+	•	Main branch used for all development
+	•	Optional feature branches may be used for experiments
+
+README Updates:
+	•	Includes project description, installation instructions, usage, features, and progress
+
+⸻
+
+4. Programming and Computing Ethics Reflection
+	•	Respect for intellectual property: all references cited
+	•	User privacy: no data is collected or stored
+	•	Accessibility: clear, readable prompts and output
+	•	Open-source code credit: ACM Code of Ethics followed
+
+Reference:
+	•	ACM Code of Ethics and Professional Conduct. (2018). Association for Computing Machinery. https://www.acm.org/code-of-ethics￼
